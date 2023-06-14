@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  section.hero-section {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .consultancy-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .consultancy-section h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .consultancy-section p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .consultancy-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #777;
+  }
+  .medicine-supply-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .medicine-supply-section h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .medicine-supply-section p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .medicine-search {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .medicine-search input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .medicine-search button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .medicine-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .medicine-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .medicine-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-card p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .medicine-card button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .education-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .education-section h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .career-opportunities,
+  .new-technology,
+  .events {
+    margin-bottom: 40px;
+  }
+  
+  .career-opportunities h3,
+  .new-technology h3,
+  .events h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+ 
+  .career-opportunities,
+  .new-technology {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .events {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
